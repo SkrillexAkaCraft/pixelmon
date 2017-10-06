@@ -1,0 +1,127 @@
+{
+  "data": {
+    /* Type options are:
+      "PokemartMain" - Spawns as the primary seller in a Poké Mart. Sells main items.
+      "PokemartSecond" - Spawns as the secondary seller in a Poké Mart. Sells luxury items.
+      "Spawn" - Spawns in the wild as a very rare seller.
+
+      More will be added as new shop types are added.
+    */
+    "type": "PokemartSecond"
+  },
+  "textures": [
+    {
+      "name": "shoplady2.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Mme. Benoit"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Bienvenue dans notre beau magasin. La qualité de ce Pokémart est insurpassable.",
+      "goodbye": "Je vous remercie de votre visite chez Pokémart."
+    }
+  ],
+  /*
+    Only items listed in the items array will show up in the shop for sale. Any item can be sold to the shop however.
+    Items layout:
+    name - reference to the name entry in shopItems.json.
+    multi - optional field, defaults to 1, changes cost of buying that item by that multiplier.
+    rarity - optional field, from 0 - 1, if set the item set there will have a percentage chance of turning up at this shopkeeper. Refreshed every MC day.
+  */
+  "items": [
+    {
+      "name": "pixelmon:pokemail_air"
+    },
+    {
+      "name": "pixelmon:pokemail_bloom"
+    },
+    {
+      "name": "pixelmon:pokemail_brick"
+    },
+    {
+      "name": "pixelmon:pokemail_bridged"
+    },
+    {
+      "name": "pixelmon:pokemail_bridgem"
+    },
+    {
+      "name": "pixelmon:pokemail_bridges"
+    },
+    {
+      "name": "pixelmon:pokemail_bridgev"
+    },
+    {
+      "name": "pixelmon:pokemail_bubble"
+    },
+    {
+      "name": "pixelmon:pokemail_dream"
+    },
+    {
+      "name": "pixelmon:pokemail_fab"
+    },
+    {
+      "name": "pixelmon:pokemail_favored"
+    },
+    {
+      "name": "pixelmon:pokemail_flame"
+    },
+    {
+      "name": "pixelmon:pokemail_glitter"
+    },
+    {
+      "name": "pixelmon:pokemail_grass"
+    },
+    {
+      "name": "pixelmon:pokemail_greet"
+    },
+    {
+      "name": "pixelmon:pokemail_heart"
+    },
+    {
+      "name": "pixelmon:pokemail_inquiry"
+    },
+    {
+      "name": "pixelmon:pokemail_like"
+    },
+    {
+      "name": "pixelmon:pokemail_mech"
+    },
+    {
+      "name": "pixelmon:pokemail_mosaic"
+    },
+    {
+      "name": "pixelmon:pokemail_orange"
+    },
+    {
+      "name": "pixelmon:pokemail_reply"
+    },
+    {
+      "name": "pixelmon:pokemail_retro"
+    },
+    {
+      "name": "pixelmon:pokemail_rsvp"
+    },
+    {
+      "name": "pixelmon:pokemail_snow"
+    },
+    {
+      "name": "pixelmon:pokemail_space"
+    },
+    {
+      "name": "pixelmon:pokemail_steel"
+    },
+    {
+      "name": "pixelmon:pokemail_thanks"
+    },
+    {
+      "name": "pixelmon:pokemail_wave"
+    },
+    {
+      "name": "pixelmon:pokemail_wood"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "data": {
+    /* Type options are:
+      "PokemartMain" - Spawns as the primary seller in a Poké Mart. Sells main items.
+      "PokemartSecond" - Spawns as the secondary seller in a Poké Mart. Sells luxury items.
+      "Spawn" - Spawns in the wild as a very rare seller.
+
+      More will be added as new shop types are added.
+    */
+    "type": "Spawn"
+  },
+  "textures": [
+    {
+      "name": "gnome_trader.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Jorlen"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Vous là! Chasseur de Pokémon ! J'ai des affaires precieuces à vous offrir !",
+      "goodbye": "Si vous êtes chanceux, vous me reverrez, chasseur de Pokémon."
+    }
+  ],
+  /*
+    Only items listed in the items array will show up in the shop for sale. Any item can be sold to the shop however.
+    Items layout:
+    name - reference to the name entry in shopItems.json.
+    multi - optional field, defaults to 1, changes cost of buying that item by that multiplier.
+    rarity - optional field, from 0 - 1, if set the item set there will have a percentage chance of turning up at this shopkeeper. Refreshed every MC day.
+  */
+  "items": [
+    {
+      "name": "pixelmon:sun_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    },
+    {
+      "name": "pixelmon:fire_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    },
+    {
+      "name": "pixelmon:water_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    },
+    {
+      "name": "pixelmon:moon_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    },
+    {
+      "name": "pixelmon:thunder_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    },
+    {
+      "name": "pixelmon:leaf_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    },
+    {
+      "name": "pixelmon:dawn_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    },
+    {
+      "name": "pixelmon:dusk_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    },
+    {
+      "name": "pixelmon:shiny_stone",
+      "multi": 4.0,
+      "rarity": 0.2
+    }
+  ]
+}
